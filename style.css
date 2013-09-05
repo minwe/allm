@@ -1,0 +1,52 @@
+@import "css/wp-admin.css";
+@import "css/buttons.css";
+@import "css/colors-fresh.css";
+
+body {
+  font-family: Arial,"Microsoft YaHei", Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.wrap {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.head-bar {
+  background-color: #111;
+}
+
+.pg-head h1 {
+  height: 50px;
+  color: #FFF;
+  line-height: 50px;
+  font-size: 1.15em;
+}
+
+
+.widgets-holder-wrap {
+
+}
+/*
+div#widgets-left {
+  margin-right: 0;
+}
+
+.widget-liquid-right {
+  width: 100%!important;
+}
+
+div#widgets-right {
+  width: 100%!important;
+}*/
+
+.widget-placeholder {
+  background: #ffffe0;
+  border: 1px dashed orangered;
+}
+
+.widget-holder {
+  display: block!important;
+}
+

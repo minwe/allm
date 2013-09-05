@@ -1,0 +1,767 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link rel="stylesheet" href="style.css"/>
+
+  <script type="text/javascript" src="js/head.load.js"></script>
+</head>
+<body class="no-js">
+<script type="text/javascript">
+  document.body.className = document.body.className.replace('no-js','js');
+</script>
+<div class="head-bar">
+  <header class="pg-head wrap">
+    <h1>页面拼装</h1>
+  </header>
+</div>
+
+<div id="main" class="wrap">
+
+<div class="widget-liquid-left">
+<div id="widgets-left">
+<div id="available-widgets" class="widgets-holder-wrap ui-droppable closed">
+<div class="sidebar-name">
+  <div class="sidebar-name-arrow"><br></div>
+  <h3>可用模块 <span id="removing-widget" style="display: none;">Deactivate <span></span></span></h3></div>
+<div class="widget-holder">
+<p class="description">拖放模块到页面模板区域。</p>
+
+<div id="widget-list">
+<div id="widget-1_archives-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=archives-2&amp;addnew=1&amp;num=3&amp;base=archives">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Archives</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Archives<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-archives-__i__-title">Title:</label> <input class="widefat"
+                                                                          id="widget-archives-__i__-title"
+                                                                          name="widget-archives[__i__][title]"
+                                                                          type="text" value=""></p>
+
+        <p>
+          <input class="checkbox" type="checkbox" id="widget-archives-__i__-dropdown"
+                 name="widget-archives[__i__][dropdown]"> <label for="widget-archives-__i__-dropdown">Display as
+          dropdown</label>
+          <br>
+          <input class="checkbox" type="checkbox" id="widget-archives-__i__-count" name="widget-archives[__i__][count]">
+          <label for="widget-archives-__i__-count">Show post counts</label>
+        </p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="archives-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="archives">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="2">
+      <input type="hidden" name="multi_number" class="multi_number" value="3">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-archives-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    A monthly archive of your site’s posts
+  </div>
+</div>
+<div id="widget-2_calendar-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=calendar-3&amp;addnew=1&amp;num=4&amp;base=calendar">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Calendar</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Calendar<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-calendar-__i__-title">Title:</label>
+          <input class="widefat" id="widget-calendar-__i__-title" name="widget-calendar[__i__][title]" type="text"
+                 value=""></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="calendar-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="calendar">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="3">
+      <input type="hidden" name="multi_number" class="multi_number" value="5">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-calendar-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    A calendar of your site’s posts
+  </div>
+</div>
+<div id="widget-3_categories-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=categories-2&amp;addnew=1&amp;num=3&amp;base=categories">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Categories</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Categories<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-categories-__i__-title">Title:</label>
+          <input class="widefat" id="widget-categories-__i__-title" name="widget-categories[__i__][title]" type="text"
+                 value=""></p>
+
+        <p><input type="checkbox" class="checkbox" id="widget-categories-__i__-dropdown"
+                  name="widget-categories[__i__][dropdown]">
+          <label for="widget-categories-__i__-dropdown">Display as dropdown</label><br>
+
+          <input type="checkbox" class="checkbox" id="widget-categories-__i__-count"
+                 name="widget-categories[__i__][count]">
+          <label for="widget-categories-__i__-count">Show post counts</label><br>
+
+          <input type="checkbox" class="checkbox" id="widget-categories-__i__-hierarchical"
+                 name="widget-categories[__i__][hierarchical]">
+          <label for="widget-categories-__i__-hierarchical">Show hierarchy</label></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="categories-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="categories">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="2">
+      <input type="hidden" name="multi_number" class="multi_number" value="5">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-categories-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    A list or dropdown of categories
+  </div>
+</div>
+<div id="widget-4_nav_menu-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=nav_menu-1&amp;addnew=1&amp;num=2&amp;base=nav_menu">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Custom Menu</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Custom Menu<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p>
+          <label for="widget-nav_menu-__i__-title">Title:</label>
+          <input type="text" class="widefat" id="widget-nav_menu-__i__-title" name="widget-nav_menu[__i__][title]"
+                 value="">
+        </p>
+
+        <p>
+          <label for="widget-nav_menu-__i__-nav_menu">Select Menu:</label>
+          <select id="widget-nav_menu-__i__-nav_menu" name="widget-nav_menu[__i__][nav_menu]">
+            <option value="6">Menu 1</option>
+          </select>
+        </p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="nav_menu-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="nav_menu">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="-1">
+      <input type="hidden" name="multi_number" class="multi_number" value="2">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-nav_menu-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    Use this widget to add one of your custom menus as a widget.
+  </div>
+</div>
+<div id="widget-5_meta-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=meta-2&amp;addnew=1&amp;num=3&amp;base=meta">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Meta</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Meta<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-meta-__i__-title">Title:</label> <input class="widefat" id="widget-meta-__i__-title"
+                                                                      name="widget-meta[__i__][title]" type="text"
+                                                                      value=""></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="meta-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="meta">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="2">
+      <input type="hidden" name="multi_number" class="multi_number" value="3">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-meta-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    Log in/out, admin, feed and WordPress links
+  </div>
+</div>
+<div id="widget-6_pages-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=pages-2&amp;addnew=1&amp;num=3&amp;base=pages">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Pages</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Pages<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-pages-__i__-title">Title:</label> <input class="widefat" id="widget-pages-__i__-title"
+                                                                       name="widget-pages[__i__][title]" type="text"
+                                                                       value=""></p>
+
+        <p>
+          <label for="widget-pages-__i__-sortby">Sort by:</label>
+          <select name="widget-pages[__i__][sortby]" id="widget-pages-__i__-sortby" class="widefat">
+            <option value="post_title" selected="selected">Page title</option>
+            <option value="menu_order">Page order</option>
+            <option value="ID">Page ID</option>
+          </select>
+        </p>
+        <p>
+          <label for="widget-pages-__i__-exclude">Exclude:</label> <input type="text" value=""
+                                                                          name="widget-pages[__i__][exclude]"
+                                                                          id="widget-pages-__i__-exclude"
+                                                                          class="widefat">
+          <br>
+          <small>Page IDs, separated by commas.</small>
+        </p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="pages-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="pages">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="2">
+      <input type="hidden" name="multi_number" class="multi_number" value="5">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-pages-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    Your site’s WordPress Pages
+  </div>
+</div>
+<div id="widget-7_recent-comments-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=recent-comments-2&amp;addnew=1&amp;num=3&amp;base=recent-comments">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Recent Comments</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Recent Comments<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-recent-comments-__i__-title">Title:</label>
+          <input class="widefat" id="widget-recent-comments-__i__-title" name="widget-recent-comments[__i__][title]"
+                 type="text" value=""></p>
+
+        <p><label for="widget-recent-comments-__i__-number">Number of comments to show:</label>
+          <input id="widget-recent-comments-__i__-number" name="widget-recent-comments[__i__][number]" type="text"
+                 value="5" size="3"></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="recent-comments-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="recent-comments">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="2">
+      <input type="hidden" name="multi_number" class="multi_number" value="3">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-recent-comments-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    The most recent comments
+  </div>
+</div>
+<div id="widget-8_recent-posts-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=recent-posts-3&amp;addnew=1&amp;num=4&amp;base=recent-posts">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Recent Posts</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Recent Posts<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-recent-posts-__i__-title">Title:</label>
+          <input class="widefat" id="widget-recent-posts-__i__-title" name="widget-recent-posts[__i__][title]"
+                 type="text" value=""></p>
+
+        <p><label for="widget-recent-posts-__i__-number">Number of posts to show:</label>
+          <input id="widget-recent-posts-__i__-number" name="widget-recent-posts[__i__][number]" type="text" value="5"
+                 size="3"></p>
+
+        <p><input class="checkbox" type="checkbox" id="widget-recent-posts-__i__-show_date"
+                  name="widget-recent-posts[__i__][show_date]">
+          <label for="widget-recent-posts-__i__-show_date">Display post date?</label></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="recent-posts-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="recent-posts">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="3">
+      <input type="hidden" name="multi_number" class="multi_number" value="4">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-recent-posts-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    The most recent posts on your site
+  </div>
+</div>
+<div id="widget-9_rss-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=rss-1&amp;addnew=1&amp;num=2&amp;base=rss">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">RSS</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>RSS<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="rss-url-__i__">Enter the RSS feed URL here:</label>
+          <input class="widefat" id="rss-url-__i__" name="widget-rss[__i__][url]" type="text" value=""></p>
+
+        <p><label for="rss-title-__i__">Give the feed a title (optional):</label>
+          <input class="widefat" id="rss-title-__i__" name="widget-rss[__i__][title]" type="text" value=""></p>
+
+        <p><label for="rss-items-__i__">How many items would you like to display?</label>
+          <select id="rss-items-__i__" name="widget-rss[__i__][items]">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10" selected="selected">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+          </select></p>
+        <p><input id="rss-show-summary-__i__" name="widget-rss[__i__][show_summary]" type="checkbox" value="1">
+          <label for="rss-show-summary-__i__">Display item content?</label></p>
+
+        <p><input id="rss-show-author-__i__" name="widget-rss[__i__][show_author]" type="checkbox" value="1">
+          <label for="rss-show-author-__i__">Display item author if available?</label></p>
+
+        <p><input id="rss-show-date-__i__" name="widget-rss[__i__][show_date]" type="checkbox" value="1">
+          <label for="rss-show-date-__i__">Display item date?</label></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="rss-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="rss">
+      <input type="hidden" name="widget-width" class="widget-width" value="400">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="-1">
+      <input type="hidden" name="multi_number" class="multi_number" value="2">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-rss-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    Entries from any RSS or Atom feed
+  </div>
+</div>
+<div id="widget-10_search-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=search-2&amp;addnew=1&amp;num=3&amp;base=search">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Search</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Search<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-search-__i__-title">Title: <input class="widefat" id="widget-search-__i__-title"
+                                                                name="widget-search[__i__][title]" type="text" value=""></label>
+        </p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="search-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="search">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="2">
+      <input type="hidden" name="multi_number" class="multi_number" value="5">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-search-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    A search form for your site
+  </div>
+</div>
+<div id="widget-11_tag_cloud-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=tag_cloud-1&amp;addnew=1&amp;num=2&amp;base=tag_cloud">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Tag Cloud</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Tag Cloud<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-tag_cloud-__i__-title">Title:</label>
+          <input type="text" class="widefat" id="widget-tag_cloud-__i__-title" name="widget-tag_cloud[__i__][title]"
+                 value=""></p>
+
+        <p><label for="widget-tag_cloud-__i__-taxonomy">Taxonomy:</label>
+          <select class="widefat" id="widget-tag_cloud-__i__-taxonomy" name="widget-tag_cloud[__i__][taxonomy]">
+            <option value="category">Categories</option>
+            <option value="post_tag" selected="selected">Tags</option>
+          </select></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="tag_cloud-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="tag_cloud">
+      <input type="hidden" name="widget-width" class="widget-width" value="250">
+      <input type="hidden" name="widget-height" class="widget-height" value="200">
+      <input type="hidden" name="widget_number" class="widget_number" value="-1">
+      <input type="hidden" name="multi_number" class="multi_number" value="2">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-tag_cloud-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    Your most used tags in cloud format
+  </div>
+</div>
+<div id="widget-12_text-__i__" class="widget ui-draggable">
+  <div class="widget-top">
+    <div class="widget-title-action">
+      <a class="widget-action hide-if-no-js" href="#available-widgets"></a>
+      <a class="widget-control-edit hide-if-js"
+         href="/wp/wp-admin/widgets.php?editwidget=text-3&amp;addnew=1&amp;num=4&amp;base=text">
+        <span class="edit">Edit</span>
+        <span class="add">Add</span>
+        <span class="screen-reader-text">Text</span>
+      </a>
+    </div>
+    <div class="widget-title"><h4>Text<span class="in-widget-title"></span></h4></div>
+  </div>
+
+  <div class="widget-inside">
+    <form action="" method="post">
+      <div class="widget-content">
+        <p><label for="widget-text-__i__-title">Title:</label>
+          <input class="widefat" id="widget-text-__i__-title" name="widget-text[__i__][title]" type="text" value=""></p>
+
+        <textarea class="widefat" rows="16" cols="20" id="widget-text-__i__-text"
+                  name="widget-text[__i__][text]"></textarea>
+
+        <p><input id="widget-text-__i__-filter" name="widget-text[__i__][filter]" type="checkbox">&nbsp;<label
+            for="widget-text-__i__-filter">Automatically add paragraphs</label></p>
+      </div>
+      <input type="hidden" name="widget-id" class="widget-id" value="text-__i__">
+      <input type="hidden" name="id_base" class="id_base" value="text">
+      <input type="hidden" name="widget-width" class="widget-width" value="400">
+      <input type="hidden" name="widget-height" class="widget-height" value="350">
+      <input type="hidden" name="widget_number" class="widget_number" value="3">
+      <input type="hidden" name="multi_number" class="multi_number" value="6">
+      <input type="hidden" name="add_new" class="add_new" value="multi">
+
+      <div class="widget-control-actions">
+        <div class="alignleft">
+          <a class="widget-control-remove" href="#remove">Delete</a> |
+          <a class="widget-control-close" href="#close">Close</a>
+        </div>
+        <div class="alignright">
+          <input type="submit" name="savewidget" id="widget-text-__i__-savewidget"
+                 class="button button-primary widget-control-save right" value="Save"> <span class="spinner"
+                                                                                             style="display: none;"></span>
+        </div>
+        <br class="clear">
+      </div>
+    </form>
+  </div>
+
+  <div class="widget-description">
+    Arbitrary text or HTML
+  </div>
+</div>
+</div>
+<br class="clear">
+</div>
+<br class="clear">
+</div>
+
+</div>
+</div>
+
+
+<div class="widget-liquid-right">
+  <div id="widgets-right">
+
+    <div class="widgets-holder-wrap">
+      <div class="sidebar-name">
+        <div class="sidebar-name-arrow"><br></div>
+        <h3>页面模板 <span class="spinner" style="display: none;"></span></h3></div>
+      <div id="sidebar-1" class="widgets-sortables ui-sortable" style="min-height: 146px;">
+        <div class="sidebar-description">
+          <p class="description">将要使用的模块拖放至此。</p></div>
+      </div>
+    </div>
+
+    <div class="page-action">
+      <button>Save</button>
+      <button>Preview</button>
+      <button>Cancle</button>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+</div>
+<!--/#main-->
+
+<script type="text/javascript">
+  head.js(
+      {jquery: "js/jquery-2.0.3.js"},
+      {jqueryUiCore: "js/ui/jquery.ui.core.js"},
+      {jqueryUiWidget: "js/ui/jquery.ui.widget.js"},
+      {jqueryUiMouse: "js/ui/jquery.ui.mouse.js"},
+      {jqueryUiSortable: "js/ui/jquery.ui.sortable.js"},
+      {jqueryUiDraggable: "js/ui/jquery.ui.draggable.js"},
+      {jqueryUiDroppable: "js/ui/jquery.ui.droppable.js"},
+      {widget: "js/widgets.js"},
+      function () {
+        console.log("js loaded");
+      });
+</script>
+
+</body>
+</html>
